@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 440px;
+    font-family: "Source Sans 3", sans-serif;
+    /* background-color: whitesmoke; */
+}
+
+
+.container{
+    width: 440px;
+    /* background-color: red; */
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.user-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.main-user{
+    margin: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headofprofile{
+    display: flex;
+}
+
+.post{
+    width: 440px;
+}
+
+p{
+    margin: 0;
+}
+
+.name-location{
+
+    margin: 8px;
+}
+
+.likeShareComment img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 5px;
+}
+
+.likeShareComment p{
+    margin: 10px 30px;
+}
+
+.body{
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    background-color: beige;
+}
+
+.likeShareComment-img{
+    width: 5px;
+    height: 5px;
+}
